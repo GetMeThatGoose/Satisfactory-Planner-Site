@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/Styles.css" />
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--js files-->
+  <script type="text/javascript" src="js\materialize.js"></script>
+  <script src="Defines\Items.js"></script>
+  <script src="Defines\StandardRecipes.js"></script>
+  <script src="Defines\Buildings.js"></script>
+  <script src="js\Settings.js"></script>
+  <script src="js\MaterialTree.js"></script>
+
+
+  <title>Satisfactory Planner</title>
+</head>
+
+<body>
+
+  <div id="Side-Panel" class="strip-container">
+    <div class="strip">
+      AAAA
+    </div>
+  </div>
+
+  <div id="Main-Panel" class="strip-container">
+    <div id="Tab-Container" class="strip-container">
+      <iframe id="loadHere" src="html/PanelTab.html"></iframe>
+    </div>
+
+
+    <div id="Main-View-Container" class="strip-container">
+      <div id="Main-View-Strip" class="strip">
+
+        <h1 class="screen-name">ITEMS</h1>
+        <div class="row">
+          <div class="col s2">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="Icons/120px-Iron_Ore.png" class="responsive-img">
+                <span class="card-title">Card Title</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+    });
+  </script>
+  
+</body>
+
+</html>
